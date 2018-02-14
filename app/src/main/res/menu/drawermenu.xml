@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/db"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/dashboard_text" />
+    <item
+        android:id="@+id/event_btn"
+        android:icon="@drawable/ic_event_black_24dp"
+        android:title="@string/event_text" />
+    <item
+        android:id="@+id/definicoes_btn"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/definicoes_text" />
+    <item
+        android:id="@+id/sair_btn"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/sair_text" />
+</menu>
