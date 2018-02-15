@@ -87,7 +87,8 @@
                 android:drawablePadding="-20dp"
                 android:background="#fff"
                 android:padding="13dp"
-                android:layout_marginBottom="5dp"/>
+                android:layout_marginBottom="5dp"
+                android:onClick="btnTopOnClick"/>
 
             <Button
                 android:id="@+id/rec_btn"
@@ -122,6 +123,7 @@
         android:background="@color/white"
         app:itemTextColor="@color/darkgray"
         app:itemIconTint="@color/darkgray"
+        app:headerLayout="@layout/header"
         app:menu="@menu/drawermenu"
         android:layout_gravity="start">
 

@@ -39,6 +39,11 @@ public class AlbumActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
     }
 
+    public void btnCardOnclick(View view) {
+        Intent intent = new Intent(AlbumActivity.this, AlbumMoreActivity.class);
+        startActivity(intent);
+    }
+
     public void btnBackOnClick(View view) {
         Intent intent = new Intent(AlbumActivity.this, VisitActivity.class);
         startActivity(intent);

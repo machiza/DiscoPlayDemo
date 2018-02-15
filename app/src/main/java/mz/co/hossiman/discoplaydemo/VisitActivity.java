@@ -69,4 +69,10 @@ public class VisitActivity extends AppCompatActivity {
         startActivity(intent);
         overridePendingTransition(R.anim.enter, R.anim.exit);
     }
+
+    public void btnTopOnClick(View view) {
+        Intent intent = new Intent(VisitActivity.this, TopActivity.class);
+        startActivity(intent);
+        overridePendingTransition(R.anim.enter, R.anim.exit);
+    }
 }
